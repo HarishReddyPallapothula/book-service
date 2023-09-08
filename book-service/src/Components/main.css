@@ -1,0 +1,245 @@
+.back-ground {
+  background-color: #ffffe0;
+}
+.body-height {
+  min-height: 60vh;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+/* Header */
+.navbar-brand span {
+  color: rgb(246, 45, 45);
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: sans-serif;
+}
+.header-sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
+  border: 1px solid gray;
+}
+.brand-img {
+  margin: 3px;
+}
+
+.header p {
+  color: rgb(246, 45, 45);
+  font-size: 16px;
+}
+.top-header-background {
+  background-color: white;
+}
+.bottom-header-background {
+  background-color: #6c757d;
+}
+
+.header-contact {
+  text-align: end;
+}
+
+.header-navlink {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #f7f7f7;
+}
+/* .header-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* footer */
+.footer-sticky {
+  bottom: 0;
+}
+
+.topfooter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: #333333;
+  color: #f7f7f7;
+}
+.bottomfooter {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #6c757d;
+  color: #f7f7f7;
+}
+
+/* home */
+
+marquee {
+  background-color: rgb(246, 45, 45);
+  color: midnightblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.bg-image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RaeUi-VUuDhv1uP3y-3RZX9mMV3QqYz6_w&usqp=CAU");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+
+  background-size: cover;
+}
+
+.bg-image h3 {
+  text-align: left;
+  color: aqua;
+  font-family: sans-serif;
+  padding-top: 100px;
+}
+.bg-image p {
+  color: aqua;
+}
+
+.btn-home {
+  background-color: aqua;
+}
+
+.aboutus h3 {
+  color: rgb(246, 42, 42);
+}
+
+.aboutus h5 {
+  color: brown;
+}
+
+.container-pad {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* services */
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #c1e1c1;
+  box-shadow: 10px 10px 15px grey;
+}
+
+.card-bg {
+  background-color: #c1e1c1;
+}
+.btn-color {
+  background-color: rgb(246, 42, 42);
+  color: white;
+}
+
+/* to book service */
+.tobookservice-form {
+  background-color: #333333;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-size: auto;
+}
+
+.tobookservice-form form {
+  margin: auto;
+}
+.tobookservice-form form .btn {
+  background-color: #ffc107;
+}
+.tobookservice-form form select {
+  margin: 10px 10px 10px 10px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.tobookservice-form form input,
+textarea {
+  margin: 10px 10px 10px 10px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.tobookservice-form form textarea {
+  margin: 10px 10px 10px 10px;
+  height: 80px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.tobookservice-form form legend,
+label {
+  color: rgb(233, 242, 203);
+}
+
+/* Offer */
+
+.card-title {
+  color: rgb(246, 42, 42);
+}
+
+#offer-code {
+  color: rgb(246, 42, 42);
+}
+
+.offer-card {
+  background-color: #b0e0e6;
+}
+/* contactus */
+
+.form-group {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.form-group textarea {
+  margin-left: 0px;
+}
+
+.address {
+  margin-top: 15px;
+}
+
+/* SideBar */
+.sidebar ul li {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px 15px 10px 15px;
+
+  border-radius: 5px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  margin: 10px 15px 10px 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.sidebar {
+  background-color: #c1e1c1;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
+.sidebar ul {
+  padding-left: 0px;
+}
+
+/* AdminDashboard */
+.outlet {
+  margin-top: 15px;
+}
+
+.submit {
+  background-color: rgb(246, 42, 42);
+}
