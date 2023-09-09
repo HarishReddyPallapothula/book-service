@@ -25,7 +25,10 @@ const Offers = () => {
                 className="col-md-3 card-deck d-flex align-items-stretch"
                 key={offer.id}
               >
-                <div className="card  p-3  offer-card rounded ">
+                <div
+                  className="card  p-3  offer-card "
+                  style={{ borderRadius: "20px", backgroundColor: "lightblue" }}
+                >
                   <div className="card-body">
                     <h5 className="card-title"> {offer.offername}</h5>
                     <h6 className="card-text">

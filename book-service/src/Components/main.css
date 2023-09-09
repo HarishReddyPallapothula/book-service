@@ -1,6 +1,3 @@
-.back-ground {
-  background-color: #e5e4e2;
-}
 .body-height {
   min-height: 60vh;
 }
@@ -19,8 +16,6 @@
   position: sticky;
   top: 0px;
   z-index: 1;
-
-  border: 1px solid gray;
 }
 .brand-img {
   margin: 3px;
@@ -34,7 +29,10 @@
   background-color: white;
 }
 .bottom-header-background {
-  background-color: lightsteelblue;
+  background: linear-gradient(to right, rgb(188, 182, 182), rgb(14, 14, 14));
+  /* Other styles for your header */
+
+  color: white;
 }
 
 .header-contact {
@@ -44,9 +42,10 @@
 .header-navlink {
   padding-top: 10px;
   font-size: 18px;
-  color: black;
 }
-
+Navbar NavLink {
+  color: white;
+}
 /* .header-list ul {
     display: flex;
     justify-content: space-between;
@@ -77,23 +76,34 @@
 
 /* home */
 
-.bg-image {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RaeUi-VUuDhv1uP3y-3RZX9mMV3QqYz6_w&usqp=CAU");
+/* .bg-image {
+  background-image: url("https://img.freepik.com/premium-photo/male-hand-touching-service-concept_220873-7591.jpg");
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100vh;
   width: 100%;
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RaeUi-VUuDhv1uP3y-3RZX9mMV3QqYz6_w&usqp=CAU
+  background-size: auto;
+} */
 
+.bg-image {
+  margin: 0;
+  padding: 0;
+  background: url("https://wallpaperaccess.com/full/1567665.png") no-repeat
+    center center fixed;
   background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Text color */
+  padding-left: 100px;
+  padding-bottom: 50px;
 }
-
-.bg-image h3 {
+.bg-image h2 {
   text-align: left;
-  color: aqua;
+
   font-family: sans-serif;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .bg-image p {
-  color: aqua;
+  color: white;
 }
 
 .aboutus h3 {

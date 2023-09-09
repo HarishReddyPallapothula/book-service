@@ -13,7 +13,7 @@ function App() {
       <div className="header-sticky">
         <Header />
       </div>
-      <div className="body-height back-ground">
+      <div className="body-height">
         <Routing />
       </div>
       <div className="footer-sticky">

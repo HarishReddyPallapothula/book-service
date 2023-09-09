@@ -40,7 +40,7 @@ const Services = () => {
               >
                 <div
                   className="card  p-3 card-round "
-                  style={{ borderRadius: "20px", backgroundColor: "white" }}
+                  style={{ borderRadius: "20px", backgroundColor: "lightblue" }}
                 >
                   <img
                     className="card-img-top"

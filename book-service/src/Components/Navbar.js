@@ -12,25 +12,53 @@ const NavbarHeader = () => {
             <Navbar.Collapse id="navbarNav">
               <Nav
                 className="ml-auto"
-                style={{ width: "100%", justifyContent: "space-between" }}
+                style={{
+                  width: "100%",
+                  justifyContent: "space-between",
+                }}
               >
-                <NavLink exact className="nav-link flex-fill " to="/">
+                <NavLink
+                  exact
+                  className="nav-link flex-fill "
+                  to="/"
+                  style={{ color: "white" }}
+                >
                   <Icon name="home"></Icon>Home
                 </NavLink>
-                <NavLink className="nav-link flex-fill " to="/about">
+                <NavLink
+                  className="nav-link flex-fill "
+                  to="/about"
+                  style={{ color: "white" }}
+                >
                   <Icon name="eye"></Icon>About Us
                 </NavLink>
-                <NavLink className="nav-link flex-fill " to="/services">
+                <NavLink
+                  className="nav-link flex-fill "
+                  to="/services"
+                  style={{ color: "white" }}
+                >
                   <Icon name="handshake"></Icon>Services
                 </NavLink>
-                <NavLink className="nav-link flex-fill" to="/offers">
+                <NavLink
+                  className="nav-link flex-fill"
+                  to="/offers"
+                  style={{ color: "white" }}
+                >
                   <Icon name="tree"></Icon>Offers
                 </NavLink>
-                <NavLink className="nav-link flex-fill " to="/bookservice">
+                <NavLink
+                  className="nav-link flex-fill "
+                  to="/bookservice"
+                  style={{ color: "white" }}
+                >
                   <Icon name="calendar check outline"></Icon>Book Service
                 </NavLink>
 
-                <NavLink className="nav-link flex-fill" to="/contactus">
+                <NavLink
+                  className="nav-link flex-fill"
+                  to="/contactus"
+                  style={{ color: "white" }}
+                >
                   <Icon name="paper plane"></Icon>Contact Us
                 </NavLink>
               </Nav>

@@ -1,33 +1,53 @@
-import React from 'react'
+import React from "react";
+import ChooseUs from "./ChooseUs";
 
 const About = () => {
-    return (
-      <div className='container-fluid back-ground '>
-      <div className='container container-pad'>
-          <div className='row'>
-              <div className='col aboutus'> 
-                  <h3>About Us</h3>
-                  <p>At BOOKSERVICE.COM, we are more than just a platform for booking services - we are your gateway to a world of convenience, excellence, and personal well-being. Our story began with a vision to revolutionize the way individuals access and experience various services, all while upholding the highest standards of quality and professionalism.</p>
-              </div>
-              
+  return (
+    <div className="container-fluid back-ground ">
+      <div className="container container-pad">
+        <div className="row">
+          <div className="col aboutus">
+            <h3>About Us</h3>
+            <p>
+              At BOOKSERVICE.COM, we are more than just a platform for booking
+              services - we are your gateway to a world of convenience,
+              excellence, and personal well-being. Our story began with a vision
+              to revolutionize the way individuals access and experience various
+              services, all while upholding the highest standards of quality and
+              professionalism.
+            </p>
           </div>
-          <div className='row'>
-              <div className='col-md-6 aboutus'>
-                  <h3>🌟 Our Vision 🌟</h3>
-                  <p>We envision a world where finding and booking services is as effortless as it is rewarding. A world where every individual can easily access a diverse range of trusted professionals who are dedicated to enhancing lives through their expertise. Our vision fuels our passion to constantly innovate, simplify, and elevate your service booking journey.</p>
-              </div>
-              
-                </div>
-                <div className='row'>
-                <div className='col-md-6 aboutus'></div>
-              <div className='col-md-6 aboutus'>
-                  <h3>🚀 Our Mission 🚀</h3>
-                  <p>Our mission is simple yet profound: to connect you with top-tier professionals across various service industries and make their expertise available at your convenience. We strive to empower you to make informed decisions, customize services to your preferences, and ultimately enjoy the benefits of a well-rounded and fulfilling life.</p>
-              </div>
-              
-                </div>
-                <div className='row aboutus'>
-                <h3>🌐 Why Choose Us? 🌐</h3>
+        </div>
+        <div className="row">
+          <div className="col-md-6 aboutus">
+            <h3>🌟 Our Vision 🌟</h3>
+            <p>
+              We envision a world where finding and booking services is as
+              effortless as it is rewarding. A world where every individual can
+              easily access a diverse range of trusted professionals who are
+              dedicated to enhancing lives through their expertise. Our vision
+              fuels our passion to constantly innovate, simplify, and elevate
+              your service booking journey.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6 aboutus"></div>
+          <div className="col-md-6 aboutus">
+            <h3>🚀 Our Mission 🚀</h3>
+            <p>
+              Our mission is simple yet profound: to connect you with top-tier
+              professionals across various service industries and make their
+              expertise available at your convenience. We strive to empower you
+              to make informed decisions, customize services to your
+              preferences, and ultimately enjoy the benefits of a well-rounded
+              and fulfilling life.
+            </p>
+          </div>
+        </div>
+        <div className="row aboutus">
+          <ChooseUs />
+          {/* <h3>🌐 Why Choose Us? 🌐</h3>
               <div className='col-md-4 aboutus'>
                         <h5>✅ Exceptional Curation</h5>
                         <p>We handpick only the finest professionals in each service category to ensure that you receive nothing but the best. Your satisfaction is our measure of success.</p>
@@ -65,17 +85,19 @@ const About = () => {
                         <h5>✅ Join Our Community</h5>
                         <p>By choosing BOOKSERVICE.COM, you become part of a growing community that values quality, convenience, and excellence.</p>
                     </div>   
-                    <div className='col aboutus'> </div>
-                    <br></br>
-                    <p>Every booking you make with us is a step toward realizing our shared vision of a world where services are accessible, exceptional, and tailored to you.<br></br> Thank you for being a part of our journey.
+                    <div className='col aboutus'> </div> */}
+          <br></br>
+          <p>
+            Every booking you make with us is a step toward realizing our shared
+            vision of a world where services are accessible, exceptional, and
+            tailored to you.<br></br> Thank you for being a part of our journey.
+            With gratitude and commitment, <br></br>
+            <strong>The BOOKSERVICE.COM Team</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-                            With gratitude and commitment, <br></br>
-                        
-                            <strong>The BOOKSERVICE.COM Team</strong></p>
-                </div>
-            </div>
-            </div>
-  )
-}
-
-export default About
+export default About;
