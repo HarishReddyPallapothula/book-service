@@ -39,8 +39,8 @@ const Services = () => {
                 key={service.id}
               >
                 <div
-                  className="card  p-3  card-bg rounded"
-                  style={{ backgroundColor: "#c1e1c1" }}
+                  className="card  p-3 card-round "
+                  style={{ borderRadius: "20px", backgroundColor: "white" }}
                 >
                   <img
                     className="card-img-top"

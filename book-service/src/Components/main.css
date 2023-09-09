@@ -1,5 +1,5 @@
 .back-ground {
-  background-color: #ffffe0;
+  background-color: #e5e4e2;
 }
 .body-height {
   min-height: 60vh;
@@ -34,7 +34,7 @@
   background-color: white;
 }
 .bottom-header-background {
-  background-color: #6c757d;
+  background-color: lightsteelblue;
 }
 
 .header-contact {
@@ -44,8 +44,9 @@
 .header-navlink {
   padding-top: 10px;
   font-size: 18px;
-  color: #f7f7f7;
+  color: black;
 }
+
 /* .header-list ul {
     display: flex;
     justify-content: space-between;
@@ -76,16 +77,6 @@
 
 /* home */
 
-marquee {
-  background-color: rgb(246, 45, 45);
-  color: midnightblue;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 24px;
-}
 .bg-image {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RaeUi-VUuDhv1uP3y-3RZX9mMV3QqYz6_w&usqp=CAU");
   background-repeat: no-repeat;
@@ -105,10 +96,6 @@ marquee {
   color: aqua;
 }
 
-.btn-home {
-  background-color: aqua;
-}
-
 .aboutus h3 {
   color: rgb(246, 42, 42);
 }
@@ -126,13 +113,10 @@ marquee {
 .card {
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: #c1e1c1;
+
   box-shadow: 10px 10px 15px grey;
 }
 
-.card-bg {
-  background-color: #c1e1c1;
-}
 .btn-color {
   background-color: rgb(246, 42, 42);
   color: white;
